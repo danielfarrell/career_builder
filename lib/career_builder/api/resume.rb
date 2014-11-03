@@ -51,8 +51,8 @@ module CareerBuilder
       has_many :desired_shift_preferences, ShiftPreference, :tag => "DesiredShiftPreferences"
 
       element :timestamp, Time, :tag => "TimeStamp"
-      element :id, String, :tag => "ResumeID"
-      element :title, String, :tag => "ResumeTitle"
+      element :resume_id, String, :tag => "ResumeID"
+      element :resume_title, String, :tag => "ResumeTitle"
       element :contact_name, String, :tag => "ContactName"
       element :contact_email, String, :tag => "ContactEmail"
       element :contact_phone, String, :tag => "ContactPhone"
