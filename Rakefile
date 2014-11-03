@@ -12,7 +12,6 @@ begin
     gem.authors = ["Michael Guterl"]
     gem.add_development_dependency "rspec", ">= 1.3.0"
     gem.add_development_dependency "webmock"
-    gem.add_dependency "nokogiri-happymapper"
     gem.add_dependency "activesupport", ">= 2.3.5"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

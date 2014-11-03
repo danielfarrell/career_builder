@@ -87,7 +87,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<nokogiri-happymapper>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_development_dependency(%q<webmock>, [">= 0"])
-      s.add_runtime_dependency(%q<nokogiri-happymapper>, [">= 0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 2.3.5"])
     else
       s.add_dependency(%q<activesupport>, [">= 0"])
@@ -96,7 +95,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<nokogiri-happymapper>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 1.3.0"])
       s.add_dependency(%q<webmock>, [">= 0"])
-      s.add_dependency(%q<nokogiri-happymapper>, [">= 0"])
       s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
     end
   else
@@ -106,7 +104,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<nokogiri-happymapper>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 1.3.0"])
     s.add_dependency(%q<webmock>, [">= 0"])
-    s.add_dependency(%q<nokogiri-happymapper>, [">= 0"])
     s.add_dependency(%q<activesupport>, ["~> 2.3.5"])
   end
 end
