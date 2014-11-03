@@ -20,6 +20,9 @@ module CareerBuilder
       element :resume_id, String, :tag => "ResumeID"
       element :user_did, String, :tag => "UserDID"
       element :contact_email_md5, String, :tag => "ContactEmailMD5"
+      element :highest_degree, String, :tag => "HighestDegree"
+      element :months_of_experience, String, :tag => "MonthsOfExperience"
+      element :last_activity, String, :tag => "LastActivity"
 
     end
 
