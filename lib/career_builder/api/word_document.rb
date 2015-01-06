@@ -6,8 +6,8 @@ module CareerBuilder
 
       include HappyMapper
 
-      element :filename, String, :tag => "FileName"
-      element :base64_date, String, :tag => "Base64Data"
+      element :file_name, String, :tag => "FileName"
+      element :base64_data, String, :tag => "Base64Data"
 
     end
 

@@ -43,6 +43,8 @@ module CareerBuilder
       has_one :most_recent_pay, Pay, :tag => "MostRecentPay"
       has_one :desired_pay, Pay, :tag => "DesiredPay"
 
+      has_one :original_word_doc, WordDocument, :tag => "OriginalWordDoc"
+
       has_many :interests, Interest, :tag => "ExtInterest"
       has_many :companies, Company, :tag => "ExtCompany"
       has_many :schools, School, :tag => "ExtSchool"
